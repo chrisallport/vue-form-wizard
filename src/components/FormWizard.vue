@@ -359,6 +359,7 @@
           })
           // we have a simple function
         } else {
+          console.log('inside validateBeforeChange');
           let validationResult = promiseFn === true
           this.executeBeforeChange(validationResult, callback)
         }
